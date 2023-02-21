@@ -18,7 +18,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "com.mjain27.rn-yourgold-demo-task"
     },
     "android": {
       "adaptiveIcon": {
